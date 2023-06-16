@@ -22,11 +22,17 @@ public class GoogleAnalyticsTrackerDemo extends UI {
     protected void init(VaadinRequest request) {
 
         // Create a tracker for vaadin.com domain and "ga-demo" prefix
-        GoogleAnalyticsTracker tracker = new GoogleAnalyticsTracker(
+        /*GoogleAnalyticsTracker tracker = new GoogleAnalyticsTracker(
+                "UA-658457-8", "none", "/ga-demo/");*/
+    	
+    	GoogleAnalyticsTracker tracker = new GoogleAnalyticsTracker(
                 "UA-658457-8", "none", "/ga-demo/");
         
+        //G-FZEJHQG94N
+    	//G-T10CSWS6MS
+        
         // Use this if you still haven't upgraded to Universal tracking API
-        // tracker.setUniversalTracking(false);
+        //tracker.setUniversalTracking(false);
 
         // Example: Create a tracker for vaadin.com domain.
         // GoogleAnalyticsTracker tracker = new GoogleAnalyticsTracker(
